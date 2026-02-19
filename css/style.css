@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/geo_maghali.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+    background-color: black ;
+    color: white;
+    font-family: 'MyCustomFont', sans-serif;
+}
+header{
+    background-color: #0f0f0f;
+    width: 99%;
+    height: 24px;
+    padding: 24px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-container{
+    max-width: 600px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.middle-container{
+    width: 600px;
+}
+.header-container{
+    max-width: 500px;
+    margin: auto;
+}
+.hdr-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.active-btn{
+    color: rgb(255, 136, 0);
+}
+.logo{
+    margin: 30px 0px;
+    margin: auto;   
+    max-width: 630px;
+}
+.logo a{
+    text-decoration: none;
+}
+.servtitle{
+    font-family: "Ewert", serif;  
+    color: rgb(255, 136, 0);
+    display: inline;
+    font-size: 60px;
+    margin: 30px 0px;
+}
+.section1{
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    background-color: #0f0f0f;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.lore-title{
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+.text-container{
+    padding: 25px;
+}
+.acces-icon{
+    width: 60px;
+    height: 60px;
+}
+.contact{
+    margin-top: 100px;
+    background-color: red;
+    width: 100%;
+    height: 400px;
+}
+p {
+  line-height: 1.8;
+  font-size: 20px;
+}
+.right-icon{
+    padding-right: 30px;
+}
+.right-acces-icon{
+    width: 130px;
+    height: 50px;
+}
+.video{
+    width: 1280px;
+    height: 720px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.video-input{
+    border-radius: 25px;
+}
